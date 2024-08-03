@@ -12,7 +12,7 @@ title: Hello
 ## Projects
 
 {% for project in site.projects %}
-  <h3><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h3>
+  <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
 
   <p>{{ project.description }}</p><br>
 {% endfor %}

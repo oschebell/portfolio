@@ -3,7 +3,7 @@
 
 title: Owen Schebella
 description: Personal site of Owen Schebella
-# baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "https://knhash.in/jekyllBear" # the base hostname & protocol for your site
 # host: 0.0.0.0
 
@@ -34,6 +34,11 @@ compress_html:
 
 # links:
 #   Projects: /projects
+
+baseurl: ""
+permalink: /blog/:slug
+timezone: America/California
+future: false
 
 collections:
   projects:
